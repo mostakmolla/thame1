@@ -1,0 +1,222 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration : none;
+	font-family : 'Bai Jamjuree';
+	line-height: 1.5;
+	color: #121212;
+}
+.header{
+	background: linear-gradient(rgba(2, 6, 8, 0.55),rgba(2, 6, 8, 0.55)), url(IMG20201106172201.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px 50px;
+	height: 100vh;
+}
+.navbar{
+	height: 70px;
+	width: 100%;
+	color: #fff;
+	overflow: hidden;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+	border-radius: 20%;
+}	
+.logo{
+	float: left;
+	padding-left: 20px;
+	position: absolute;
+	margin: auto;
+}
+.ml2{
+	font-size: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+}
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: rgb(0, 128, 0, 0.75);
+}
+.ml3{
+	font-size: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 10px 10px 0px;
+	font-weight: bold;
+}
+.ml3 .letter {
+	display: inline-block;
+  	line-height: 1em;
+	color: rgba(255, 255, 255, 0.75);
+}
+.menu{
+	float: right;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 20px 20px;
+}
+li:hover {
+	padding: 20px 20px;
+	background-color: #111;
+}
+li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.75);
+	margin: auto;
+}
+.headertext{
+	margin-top : 150px;
+	padding: 0px 20px 100px 20px;
+
+}
+.aboutsec{
+	background: url(https://www.sas.com/nl_nl/partners/partner-vinden/alliance-partners/deloitte/_jcr_content/par/styledcontainer_57b4/image.img.png/1457718455276.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 100px;
+	text-align: center;
+}
+.aboutel{
+	display: flex;
+}
+.probarsec{
+	background-color: #f3f7f5;
+	padding: 100px 100px;
+	text-align: center;
+}
+.probar{
+	display: flex;
+}
+.probarcol{
+	width: 50%;
+	padding: 0px 20px;
+}
+.barbrdr{
+	border: 1px solid rgb(0, 128, 0, 0.75);
+	height: 20px;
+	width: 100%;
+	border-radius: 20px;
+}
+.barres{
+	background-color: rgb(0, 128, 0, 0.75);
+	height: 20px;
+	border-radius: 20px;
+}
+.experience{
+	background: linear-gradient(rgba(255,255, 255, 0.75),rgba(255, 255, 255, 0.75)), url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 100px;
+	text-align: center;
+}
+.exprel{
+	display: flex;
+	text-align : center;
+	padding: 20px 50px;
+}
+.exprcol{
+	width: 33.33%;
+	padding: 20px 20px;
+	margin: 0px 15px;
+	box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
+	border-radius: 5px;
+}
+.wprosec{
+	background-color: white;
+	padding: 100px 100px;
+	text-align: center;
+}
+.wproel{
+	display: flex;
+}
+.wprocol{
+	width: 33.33%;
+	padding: 20px 20px;
+	margin: 0px 15px;
+	box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
+	border-radius : 5px;
+}
+.servicesec{
+	background: linear-gradient(rgba(255,255, 255, 0.75),rgba(255, 255, 255, 0.75)), url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 100px;
+	text-align: center;
+}
+.serviceel{
+	display: flex;
+	padding: 0px 100px;
+}
+.servicecol{
+	width: 33.33%;
+	background: rgb(255, 255, 255, 0.75);
+	padding: 10px;
+}
+.projsec{
+	background: #f3f7f5;
+	padding: 50px 100px;
+	text-align: center;
+}
+.projel img{
+	width: 200px;
+	height: auto;
+	box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
+}
+.contactsec{
+	background: #fff;
+	padding: 50px 100px;
+	text-align: center;
+}
+.contel{
+	display: flex;
+}
+.contcol{
+	width: 50%;
+	text-align: left;
+}
+input{
+	font-size: 20px;
+	padding: 5px;
+}
+textarea{
+	font-size: 20px;
+	padding: 5px;
+}
+input[type="submit"]{
+	background: rgb(0, 128, 0, 0.75);
+	border: 1px solid rgb(0, 128, 0, 0.75);
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #fff;
+}
+.footercredit{
+	padding: 20px 50px;
+	width: 100%;
+	height: auto;
+	background-color: #111;
+	color: #f3f7f5;
+	position: relative;
+}
+.fcel{
+	display: flex;
+}
+.fccol{
+	width: 33.33%;
+	margin: 10px;
+}
